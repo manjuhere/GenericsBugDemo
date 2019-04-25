@@ -13,6 +13,9 @@
 		7842792B2272404F00DB1979 /* GenericsDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 784279292272404F00DB1979 /* GenericsDemo.xcdatamodeld */; };
 		7842792D2272405100DB1979 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7842792C2272405100DB1979 /* Assets.xcassets */; };
 		784279302272405100DB1979 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7842792E2272405100DB1979 /* LaunchScreen.storyboard */; };
+		78427938227243D800DB1979 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78427937227243D800DB1979 /* TableController.swift */; };
+		7842793A227243E900DB1979 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78427939227243E900DB1979 /* Extensions.swift */; };
+		7842793C2272440200DB1979 /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7842793B2272440200DB1979 /* Cells.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		7842792C2272405100DB1979 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7842792F2272405100DB1979 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		784279312272405100DB1979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78427937227243D800DB1979 /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
+		78427939227243E900DB1979 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7842793B2272440200DB1979 /* Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				784279222272404F00DB1979 /* AppDelegate.swift */,
+				7842793B2272440200DB1979 /* Cells.swift */,
+				78427937227243D800DB1979 /* TableController.swift */,
 				784279242272404F00DB1979 /* ViewController.swift */,
+				78427939227243E900DB1979 /* Extensions.swift */,
 				784279262272404F00DB1979 /* Main.storyboard */,
 				7842792C2272405100DB1979 /* Assets.xcassets */,
 				7842792E2272405100DB1979 /* LaunchScreen.storyboard */,
@@ -138,6 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7842793A227243E900DB1979 /* Extensions.swift in Sources */,
+				7842793C2272440200DB1979 /* Cells.swift in Sources */,
+				78427938227243D800DB1979 /* TableController.swift in Sources */,
 				7842792B2272404F00DB1979 /* GenericsDemo.xcdatamodeld in Sources */,
 				784279252272404F00DB1979 /* ViewController.swift in Sources */,
 				784279232272404F00DB1979 /* AppDelegate.swift in Sources */,
